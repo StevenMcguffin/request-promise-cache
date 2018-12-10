@@ -1,5 +1,5 @@
-# request-promise-cache
-Request promise with cache
+# stable-request
+[akhoury](https://github.com/akhoury) 의 [request-promise-cache](https://github.com/akhoury/request-promise-cache) 를 기반으로 Mircroservice Architecture 에 활용될 수 있도록 Network 혹은 서비스 호스트가 일시적으로 작동하지 않는 경우에도 고려하였습니다.
 
 ### 2.0.0 Breaks backward compatibility
 The `resolve`d first argument is no longer `{response, body, ?error}` but just the `body`. But, you can pass in `resolveWithFullResponse=true` to the `request({..params})` to get the full `response` object instead of the body.
